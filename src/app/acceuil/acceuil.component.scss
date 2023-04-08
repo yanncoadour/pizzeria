@@ -1,0 +1,70 @@
+.acceuil{
+
+  .presentation{
+    height: 80vw;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/img/pizza1.jpeg");
+    background-size: 110%;
+    background-position: bottom;
+    clip-path: polygon(0 0, 100% 0, 100% 83%, 0 100%);
+    margin-bottom: 10vw;
+    h1{
+      width: 60vw;
+      color: white;
+      padding-left: 4vw;
+      padding-top: 10vw;
+      font-size: 5vw;
+    }
+
+    button{
+      width: 14vw;
+      height: 5vw;
+      background-color: #ffff;
+      color: #008037;
+      border: none;
+
+      &:hover{
+        background-color: #008037;
+        color: white;
+      }
+    }
+
+    .btn1{
+      position: absolute;
+      top: 58vw;
+      left: 4vw;
+    }
+
+    .btn2{
+      position: absolute;
+      top: 58vw;
+      left: 24vw;
+    }
+  }
+
+  .description{
+    display: flex;
+    justify-content: space-between;
+
+    p{
+      padding-left: 4vw;
+      width: 45vw;
+      font-weight: 300;
+      font-size: 1.3vw;
+    }
+
+    .description__images{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      img{
+        width: 40vw;
+        height: 20vw;
+        object-fit: cover;
+        margin-bottom: 4vw;
+        margin-right: 4vw;
+      }
+    }
+
+  }
+}
