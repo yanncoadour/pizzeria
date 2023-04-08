@@ -1,0 +1,39 @@
+
+
+.menu{
+  display: flex;
+  justify-content: space-around;
+  border-bottom: .3vw solid #1C2247 ;
+  align-items: center;
+  padding: 1vw;
+
+
+  img{
+    height : 6vw;
+  }
+
+  ul{
+    display: flex;
+    list-style: none;
+
+
+    li{
+      padding: 1vw;
+      font-size: 1.4vw;
+      color: #1C2247;
+      font-weight: 600;
+
+
+    }
+  }
+
+  button{
+    width: 8vw;
+    height: 3.5vw;
+    font-size: 1vw;
+    border: #1C2247 .2vw solid;
+    border-radius: 9px;
+    background-color: #008037;
+    color: white;
+  }
+}
