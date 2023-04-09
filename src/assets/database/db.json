@@ -1,0 +1,375 @@
+{
+  "pizzas": [
+    {
+      "id": 1,
+      "name": "Margherita",
+      "ingredients": ["Base sauce tomate", "basilic fraix", "mozzaerella"],
+      "prices": {
+        "30cm": "07,00",
+        "40cm": "10,00"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Novara",
+      "ingredients": ["Base sauce tomate", "Chorizo", "oignons frais", "Poivrons frais", "oeuf"],
+      "prices": {
+        "30cm": "09,90",
+        "40cm": "13,90"
+      }
+    },
+    {
+      "id": 3,
+      "name": "4 Stogioni",
+      "ingredients": ["Base sauce tomate", "Mozzarella", "champignon frais", "jambon de paris", "olives à la grecque","artichauts"],
+      "prices": {
+        "30cm": "09,90",
+        "40cm": "13,50"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Etna (Pizza en chausson)",
+      "ingredients": ["Base sauce tomate", "Mozzarella", "jambon de paris", "oeuf"],
+      "prices": {
+        "30cm": "09,90",
+        "40cm": "13,50"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Giulia (Pizza carbonara)",
+      "ingredients": ["Base crème fraîche", "Mozzarella", "jaune d'oeuf", "pecorino", "guanciale"],
+      "prices": {
+        "30cm": "09,90",
+        "40cm": "14,90"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Regina",
+      "ingredients": ["Base sauce tomate", "Mozzarella", "champignons frais", "jambon de paris"],
+      "prices": {
+        "30cm": "10,00",
+        "40cm": "14,00"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Bianca",
+      "ingredients": ["Base crème fraîche", "Mozzarella", "champignons frais", "jambon de paris"],
+      "prices": {
+        "30cm": "10,00",
+        "40cm": "14,00"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Flavio",
+      "ingredients": ["Base sauce tomate", "jambon de paris", "artichauts", "parmesan", "tomates fraîches"],
+      "prices": {
+        "30cm": "10,00",
+        "40cm": "14,00"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Verdura",
+      "ingredients": ["Base sauce tomate", "champignon frais", "oignons frais", "persil", "artichauts", "oeuf", "tomates fraîches"],
+      "prices": {
+        "30cm": "10,20",
+        "40cm": "13,90"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Napoli",
+      "ingredients": ["Base sauce tomate", "tomates fraîches", "olives à la grecque", "anchois", "mozzarella", "câpres"],
+      "prices": {
+        "30cm": "10,50",
+        "40cm": "14,00"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Riardo",
+      "ingredients": ["Base sauce tomate", "mozzarella", "oignons frais", "jambon cru", "oeuf"],
+      "prices": {
+        "30cm": "11,00",
+        "40cm": "14,00"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Luca",
+      "ingredients": ["Base sauce tomate", "mozzarella", "champignons frais", "crème fraîche", "jambon cru"],
+      "prices": {
+        "30cm": "11,00",
+        "40cm": "13,00"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Ida",
+      "ingredients": ["Base sauce fraîche", "mozzarella", "champignons frais", "lardons fumés au bois de hêtre", "jambon cru"],
+      "prices": {
+        "30cm": "11,00",
+        "40cm": "13,50"
+      }
+    },
+    {
+      "id": 14,
+      "name": "4 Formaggi",
+      "ingredients": ["Base sauce tomate", "mozzarella", "parmesan", "gorgonzola", "chèvre"],
+      "prices": {
+        "30cm": "11,00",
+        "40cm": "13,50"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Matteo",
+      "ingredients": ["Base sauce tomate", "mozzarella", "champignons frais", "lardons fumés au bois de hêtre", "oeuf"],
+      "prices": {
+        "30cm": "11,50",
+        "40cm": "14,50"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Vesuvio",
+      "ingredients": ["Base sauce tomate", "mozzarella", "merguez", "chorizo", "oeuf"],
+      "prices": {
+        "30cm": "11,50",
+        "40cm": "14,00"
+      }
+    },
+    {
+      "id": 17,
+      "name": "Santo",
+      "ingredients": ["Base sauce tomate", "viande hachée", "poivrons frais", "mozzarella", "oeuf"],
+      "prices": {
+        "30cm": "11,90",
+        "40cm": "14,50"
+      }
+    },
+    {
+      "id": 18,
+      "name": "La Bomba (Chausson XXL)",
+      "ingredients": ["Base sauce tomate", "mozzarella", "jambon de paris", "oeuf", "champignon frais"],
+      "prices": {
+        "30cm": "--,--",
+        "40cm": "15,00"
+      }
+    },
+    {
+      "id": 19,
+      "name": "Norvegia",
+      "ingredients": ["Base sauce tomate", "saumon fumé", "crème fraîche", "persil", "tomates fraîches", "mozzarella"],
+      "prices": {
+        "30cm": "12,50",
+        "40cm": "15,50"
+      }
+    },
+    {
+      "id": 20,
+      "name": "Foresta Nera",
+      "ingredients": ["Pâte au charbon végétal","Base crème faîche", "mozzarella", "oignons frais", "tomates cerises", "speck (véritable speck du Val d'Aoste)" ],
+      "prices": {
+        "30cm": "12,50",
+        "40cm": "16,00"
+      }
+    },
+    {
+      "id": 21,
+      "name": "Pasquale",
+      "ingredients": ["Base sauce tomate", "mozzarella", "champignons frais", "émincés de poulet rôti", "tomates fraîches", "papika", "estragon", "crème fraîche" ],
+      "prices": {
+        "30cm": "12,90",
+        "40cm": "16,50"
+      }
+    },
+    {
+      "id": 22,
+      "name": "Alibaba",
+      "ingredients": ["Base sauce tomate", "oignons frais", "sauce blanche kebab", "champignons frais", "viande kebab" ],
+      "prices": {
+        "30cm": "12,90",
+        "40cm": "16,50"
+      }
+    },
+    {
+      "id": 23,
+      "name": "Savoyarde",
+      "ingredients": ["Base crème fraîche", "mozarella", "oignons frais", "lardons fumés au bois de hêtre", "pommes de terre", "crème fraîche", "raclette de Savoie" ],
+      "prices": {
+        "30cm": "12,90",
+        "40cm": "16,50"
+      }
+    },
+    {
+      "id": 24,
+      "name": "Giovanni",
+      "ingredients": ["Base sauce tomate", "crème fraîche", "mozzarella", "champignons frais", "ananas", "émincés de poulet rôti", "curry", "poivrons frais" ],
+      "prices": {
+        "30cm": "12,90",
+        "40cm": "16,50"
+      }
+    },
+    {
+      "id": 25,
+      "name": "Basilic Instinct",
+      "ingredients": ["Tomates fraîches cuisinées au basilic", "mozzarella", "basilic frais", "parmesan", "jambon cru" ],
+      "prices": {
+        "30cm": "12,90",
+        "40cm": "16,50"
+      }
+    },
+    {
+      "id": 26,
+      "name": "La Capricciosa",
+      "ingredients": ["Base sauce tomate", "mozzarella fraîche en chiffonade cuite", "aubergines panées maison", "ricotta", "lardons fumés au bois de hêtre", "olives à la grecque" ],
+      "prices": {
+        "30cm": "13,00",
+        "40cm": "16,50"
+      }
+    },
+    {
+      "id": 27,
+      "name": "La Bouboule",
+      "ingredients": ["Base sauce tomate", "boulettes de boeuf", "mozzarella", "oignons frais", "poivrons frais" ],
+      "prices": {
+        "30cm": "13,10",
+        "40cm": "16,00"
+      }
+    },
+    {
+      "id": 28,
+      "name": "Stella Di Napoli",
+      "ingredients": ["Ricotta", "pesto", "huile de truffe", "tomates cerises", "mozzarella coupée en dés", "salade" ],
+      "prices": {
+        "30cm": "13,50",
+        "40cm": "18,00"
+      }
+    },
+    {
+      "id": 29,
+      "name": "5 Gusti",
+      "ingredients": ["5 goûts différents suivant l'humeur de Giovanni." ],
+      "prices": {
+        "30cm": "13,50",
+        "40cm": "18,50"
+      }
+    },
+    {
+      "id": 30,
+      "name": "Burrata",
+      "ingredients": ["Base sauce tomate", "burrata fraîche sur son lit de jeunes pousses de salade", "coppa", "huile d'olive", "vinaigre balsamique" ],
+      "prices": {
+        "30cm": "13,50",
+        "40cm": "18,50"
+      }
+    },
+    {
+      "id": 31,
+      "name": "Giacomo",
+      "ingredients": ["Base sauce tomate", "trio de charcuteties", "mozzarella frîche en chiffonnade cuite", "tomates cerises", "olives à la grecque", "salade" ],
+      "prices": {
+        "30cm": "13,70",
+        "40cm": "18,50"
+      }
+    },
+    {
+      "id": 32,
+      "name": "Pizza Humberger (Pizza en chausson)",
+      "ingredients": ["Base sauce tomate", "cheddar", "mozzarella", "champignons frais", "oignons frais", "poivrons", "viande hachée", "sauce hamburger" ],
+      "prices": {
+        "30cm": "13,90",
+        "40cm": "17,90"
+      }
+    },
+    {
+      "id": 33,
+      "name": "Calabrese",
+      "ingredients": ["Base sauce tomate", "mozzarella", "Gorgonzola", "oignons frais", "aubergines panées maison", "spianata" ],
+      "prices": {
+        "30cm": "14,00",
+        "40cm": "18,50"
+      }
+    }
+  ],
+  "pastas" : [
+    {
+      "id": 1,
+      "name": "Napolitaine",
+      "prices": "09,00"
+    },
+    {
+      "id": 2,
+      "name": "Bolognaise",
+      "prices": "09,00"
+    },
+    {
+      "id": 3,
+      "name": "Toscana",
+      "prices": "09,00"
+    },
+    {
+      "id": 4,
+      "name": "Pesto Genovese",
+      "prices": "09,00"
+    },
+    {
+      "id": 5,
+      "name": "Véritable carbonara guanciale sans crème",
+      "prices": "09,50"
+    },
+    {
+      "id": 6,
+      "name": "4 Formaggi",
+      "prices": "10,00"
+    },
+    {
+      "id": 6,
+      "name": "4 Formaggi",
+      "prices": "10,00"
+    },
+    {
+      "id": 7,
+      "name": "Saumon Fumé",
+      "prices": "11,50"
+    },
+    {
+      "id": 8,
+      "name": "Saint-Jacques",
+      "prices": "12,50"
+    },
+    {
+      "id": 9,
+      "name": "Terra e Mare",
+      "prices": "13,50"
+    }
+  ],
+  "desserts": [
+    {
+      "id": 1,
+      "name": "Fondant au chocolat",
+      "prices": "04,00"
+    },
+    {
+      "id": 2,
+      "name": "Panna Cotta (Chocola, caramel, cerise)",
+      "prices": "04,00"
+    },
+    {
+      "id": 3,
+      "name": "Tiramisu classico",
+      "prices": "04,00"
+    },
+    {
+      "id": 3,
+      "name": "Baba au Rhum di Sorrento",
+      "prices": "06,00"
+    }
+  ]
+}

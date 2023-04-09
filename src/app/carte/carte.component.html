@@ -1,0 +1,73 @@
+<div class="carte">
+  <div class="carte__header">
+    <h1>LES PIZZAS</h1>
+    <span>TROUVEZ VOTRE BONHEUR PARMIS CETTE SELECTION DE PIZZA</span>
+  </div>
+  <div class="carte__pizza">
+    <div class="carte__pizza__header" >
+      <div class="carte__pizza__header__left">
+        <h2>Pizza</h2>
+        <span>Aliments</span>
+      </div>
+      <div class="carte__pizza__header__right">
+        <p>30cm</p>
+        <p class="desc__40cm">40cm</p>
+      </div>
+    </div>
+    <div class="carte__pizza__liste">
+      <ul>
+        <li class="pizza__ensemble" *ngFor="let pizza of menuItems.pizzas">
+          <div class="pizza__description">
+            <p class="pizza__name">{{ pizza.name }}</p>
+            <p class="pizza__ingredient">{{ pizza.ingredients.join(', ') }}</p>
+          </div>
+          <div class="pizza__prix">
+            <p class="pizza__30">{{ pizza.prices['30cm'] }}€</p>
+            <p class="pizza__40">{{ pizza.prices['40cm'] }}€</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="carte__header__pasta">
+    <h1>LES PASTAS</h1>
+    <span>TROUVEZ VOTRE BONHEUR PARMIS CETTE SELECTION DE PASTAS</span>
+  </div>
+  <div class="carte__pasta">
+    <div class="carte__pasta__header" >
+      <h2>Pasta</h2>
+      <p>Prix</p>
+    </div>
+    <div class="carte__pasta__liste">
+      <ul>
+        <li class="pasta__ensemble" *ngFor="let pasta of menuItems.pastas">
+          <div class="pizza__description">
+            <p class="pizza__name">{{ pasta.name }}</p>
+          </div>
+          <div class="pizza__prix">
+            <p class="pizza__30">{{ pasta.prices}}€</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="carte__header__dessert">
+    <h1>LES DESSERTS</h1>
+    <span>TERMINEZ VOTRE REPAS AVEC UNE TOUCHE DE GOURMANDISE</span>
+  </div>
+  <div class="carte__dessert">
+    <div class="carte__dessert__header" >
+      <h2>Pasta</h2>
+      <p>Prix</p>
+    </div>
+    <div class="carte__dessert__liste">
+      <ul>
+        <li class="dessert__ensemble" *ngFor="let pasta of menuItems.pastas">
+            <p class="dessert__name">{{ pasta.name }}</p>
+            <p class="dessert__prix">{{ pasta.prices}}€</p>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
